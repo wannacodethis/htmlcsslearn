@@ -19,8 +19,9 @@
 }
 
 .logo{
-    margin-left: 98px;
-    margin-top: 38px;
+    position: absolute;
+    left: 98px;
+    top: 38px;
     width: 31px;
     height: 25px;
     object-fit: contain;
@@ -28,7 +29,6 @@
 
 .site_menu{
     position: absolute;
-    float: right;
     width: 616px;
     height: 9px;
     object-fit: contain;
