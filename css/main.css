@@ -1,115 +1,83 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap');
-</style>
-
-<style>
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
-</style>
+@import url(//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation);
 
 * {
     padding: 0;
     margin: 0;
 }
 
+body{
+    margin: 0;
+}
+
 .container{
     margin: 0 auto;
-    background: linear-gradient(to bottom, #ffffff, #e9e9e9);
-    width: 1366px;
-    height: 670px;
+    width: 1000px;
+}
+
+.main_service{
+    width: 1000px;
+    height: 552px;
+    background-color: #000000;
+}
+
+.ap-ui{
+    opacity: 0.6;
+    filter: alpha(opacity = 60) black;
 }
 
 .logo{
-    position: absolute;
-    left: 98px;
-    top: 38px;
-    width: 31px;
-    height: 25px;
-    object-fit: contain;
-}
-
-.site_menu{
-    position: absolute;
-    width: 616px;
-    height: 9px;
-    object-fit: contain;
-    top: 45px; 
-    left: 653px;
-}
-
-.site_menu li{
+    position: relative;
     float: left;
-    padding: 0 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 2;
-    letter-spacing: 1.2px;
-}
-
-.site_menu a{
-    text-decoration: none;
-    color: #191919;
-}
-
-.site_menu a:hover{
-    color: #10c9c3;
-}
-
-li .choosen_li{
-    color: #10c9c3;
-}
-
-.h1_banner_home{
-    position: absolute;
-    width: 455px;
-    height: 38x;
-    top: 234px;
-    left: 762px;
-    object-fit: contain;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 38px;
-    font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.26;
-    letter-spacing: 0.38px;
-    text-align: left;
-    color: #1d1d1d;
-}
-
-.p_banner_home{
-    position: absolute;
-    width: 474px;
-    height: 72px;
-    top: 304px;
-    left: 768px;
-    object-fit: contain;
-    font-family: 'NunitoSans';
-    font-size: 18px;
+    width: 65px;
+    height: 18px;
+    top: -530px;
+    left: 30px;
+    font-family: 'Sansation';
+    font-size: 24px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: 1.56;
-    letter-spacing: 0.09px;
+    line-height: 0.75;
+    letter-spacing: normal;
     text-align: left;
-    color: #787878;
-    
+    transform-origin: left;
+    transform: scale(0.9, 1);
+    color: #ffffff;
 }
 
-.flat_button{
-    position: absolute;
-    width: 180px;
-    height: 54px;
-    top: 415px;
-    left: 768px;
-    padding: 10px;
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 0;
-    color: white;
-    background-color: #10c9c3;
-    border: none;
+.logo_red{
+    color: #da2346;
 }
 
+.main_menu{
+    position: relative;
+    float: right;
+    top: -530px;
+    right: 175px;
+    width: 637px;
+    height: 19px;
+}
+
+.main_menu li{
+    float: left;
+    padding: 0 20px;
+    transform-origin: left;
+    transform: scale(0.7, 1);
+    line-height: 1.3;   
+    font-family: 'Sansation';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.main_menu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main_menu li a .choosen_li{
+    color: #097e89;
+}
