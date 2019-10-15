@@ -16,6 +16,7 @@ body{
 }
 
 .main_service{
+    position: relative;
     width: 1000px;
     height: 552px;
     background-color: #000000;
@@ -27,11 +28,11 @@ body{
 }
 
 .logo{
-    position: relative;
+    position: absolute;
     float: left;
     width: 65px;
     height: 18px;
-    top: -530px;
+    top: 23px;
     left: 30px;
     font-family: 'Sansation';
     font-size: 24px;
@@ -42,7 +43,7 @@ body{
     letter-spacing: normal;
     text-align: left;
     transform-origin: left;
-    transform: scale(0.9, 1);
+    transform: scale(0.97, 1);
     color: #ffffff;
 }
 
@@ -51,26 +52,25 @@ body{
 }
 
 .main_menu{
-    position: relative;
-    float: right;
-    top: -530px;
-    right: 175px;
-    width: 637px;
+    position: absolute;
+    top: 22px;
+    left: 177px;
+    width: 707px;
     height: 19px;
 }
 
 .main_menu li{
     float: left;
-    padding: 0 20px;
+    margin: 0 15px;
     transform-origin: left;
-    transform: scale(0.7, 1);
-    line-height: 1.3;   
+    transform: scale(0.6, 1);
+    line-height: 0.8;   
     font-family: 'Sansation';
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    letter-spacing: normal;
+    letter-spacing: 1px;
     text-align: right;
 }
 
@@ -84,10 +84,9 @@ body{
 }
 
 .refs_social{
-    float: right;
-    position: relative;
-    top: -540px;  
-    right: -543px;
+    position: absolute;
+    top: 14px;  
+    left: 869px;
 }
 
 .refs_social li{
@@ -124,8 +123,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25px;
-    height: 30px;
+    width: 23px;
+    height: 29px;
     border-radius: 50%;
     border: solid 1px #ffffff;
 }
@@ -134,18 +133,27 @@ body{
     background-color: #352767;    
 }
 
+.hor_line{
+    position: absolute;
+    top: 61px;
+    width: 998px;
+    height: 1px;
+    opacity: 0.2;
+    background-color: #ffffff;
+}
+
 .main_banner{
+    position: absolute;
     width: 535px;
     height: 196px;
-    position: relative;
     left: 231px;
-    top: -384px;
+    top: 188px;
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .best_services{
-    position: relative;
-    top: 13px;
+    position: absolute;
+    top: 48px;
     left: 70px;
     display: inline-block;
     width: 479px;
@@ -164,9 +172,9 @@ body{
 }
 
 .description{
-    position: relative;
-    top: 34px;
-    left: 99px;
+    position: absolute;
+    top: 108px;
+    left: 93px;
     display: inline-block;
     width: 392px;
     height: 29px;
@@ -189,21 +197,20 @@ body{
 }
 
 .arrow_left{
-    position: relative;
-    top: -490px;
+    position: absolute;
+    top: 288px;
     left: 44px;  
 }
 
 .arrow_right{
-    float: right;
-    position: relative;
-    top: -523px;
+    position: absolute;
+    top: 288px;
     right: 43px;    
 }
 
 .arrow_left, .arrow_right{
-    width: 29px;
-    height: 33px;
+    width: 26px;
+    height: 31px;
     border: solid 1px rgba(255, 255, 255, 0.2);
     background-color: rgba(0, 0, 0, 0);
     color: rgba(255, 255, 255, 0.2);
