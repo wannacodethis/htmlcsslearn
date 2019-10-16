@@ -1,5 +1,7 @@
 @import url(//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation);
 @import url(//db.onlinewebfonts.com/c/203a9484bfdc47e34b3ef212bab9adc1?family=Sansation);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
 
 * {
     padding: 0;
@@ -23,8 +25,8 @@ body{
 }
 
 .ap-ui{
-    opacity: 0.6;
-    filter: alpha(opacity = 60) black;
+    opacity: 0.5;
+    filter: alpha(opacity = 50) black;
 }
 
 .logo{
@@ -130,7 +132,7 @@ body{
 }
 
 .refs_social span:hover{
-    background-color: #352767;    
+    background-color: #350767;    
 }
 
 .hor_line{
@@ -149,6 +151,25 @@ body{
     left: 231px;
     top: 188px;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: none;
+}
+
+.main_banner:before, .main_banner:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    width: 186px;
+    height: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);   
+}
+
+.main_banner:before{
+    left: -1px;
+}
+
+.main_banner:after{
+    right: -1px;   
 }
 
 .best_services{
@@ -214,9 +235,9 @@ body{
     border: solid 1px rgba(255, 255, 255, 0.2);
     background-color: rgba(0, 0, 0, 0);
     color: rgba(255, 255, 255, 0.2);
-    font-family: monospace;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: 1;
@@ -225,6 +246,37 @@ body{
 }
 
 .arrow_left:hover, .arrow_right:hover{
-    background-color: #352767;    
+    background-color: #350767;    
+}
+
+.hire_us{
+    position: absolute;
+    top: 366px;
+    left: 440px;
+    width: 112px;
+    height: 37px;
+    border: solid 2px #ffffff;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.hire_us:hover{
+    background-color: #350767;
+    cursor: pointer;
+}
+
+.hire_us_text{
+    padding-left: 15px;
+    padding-bottom: 1px;
+    font-family: 'Sansation';
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;  
+    transform-origin: left;
+    transform: scale(0.87, 1);
 }
 
