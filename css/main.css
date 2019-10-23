@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 @import url(//db.onlinewebfonts.com/c/a89cf050c859a23e4b6d9cf5989acf9e?family=Myriad+Pro);
 @import url(//db.onlinewebfonts.com/c/9b7350af1bd31d8cd491e595ed49aeb2?family=NEOTERIC);
+@import url(//db.onlinewebfonts.com/c/f74ee7cbb191e486e9551cdada1999ed?family=Myriad+Pro+Light);
 
 * {
     padding: 0;
@@ -949,5 +950,163 @@ body{
 }
 
 .clients_list_1 li:hover, .clients_list_2 li:hover{
+    cursor: pointer;
+}
+
+.any_queries{
+    position: absolute;
+    top: 2623px;
+    width: 1000px;
+    height: 173px;
+    background-color: #097e89;
+}
+
+.get_quote{
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 42px;
+    width: 342px;
+    height: 28px;
+    font-family: Sansation;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    transform-origin: left;
+    transform: scaleX(0.69);
+}
+
+.queries_text{
+    position: absolute;
+    top: 81px;
+    left: 43px;
+    width: 450px;
+    height: 33px;
+    font-family: Sansation;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+    transform-origin: left;
+    transform: scaleX(0.71);
+}
+
+.form_queries{
+    position: absolute;
+    top: 63px;
+    left: 441px;
+}
+
+.form_queries_name, .form_queries_number{
+    display: block;
+    float: left;
+    height: 45px;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+}
+
+.form_queries_name, .form_queries_number{
+    padding-left: 20px;
+    opacity: 0.7;
+    font-family: Sansation;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+.form_queries_name:hover, .form_queries_number:hover{
+    box-shadow: 0 0 5px;
+}
+
+.form_queries_name{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;  
+    border-right: none;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    opacity: 0.7;
+    font-family: Sansation;
+    font-size: 10.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+input[type="text"]::-moz-placeholder {
+    opacity: 0.7;
+    font-family: Sansation;
+    font-size: 10.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+input[type="text"]:-ms-input-placeholder {
+    opacity: 0.7;
+    font-family: Sansation;
+    font-size: 10.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+input[type="text"]:-moz-placeholder {
+    opacity: 0.7;
+    font-family: Sansation;
+    font-size: 10.5px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form_queries_get_a_call{
+    position: absolute;
+    width: 101px;
+    height: 47px;
+    background-color: #ffffff;
+    border: none;
+    font-family: MyriadPro;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    color: #097e89;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;    
+}
+
+.form_queries_get_a_call:hover{
+    filter: brightness(85%);
     cursor: pointer;
 }
