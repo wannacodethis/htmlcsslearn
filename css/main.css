@@ -4,6 +4,8 @@
 @import url(//db.onlinewebfonts.com/c/a89cf050c859a23e4b6d9cf5989acf9e?family=Myriad+Pro);
 @import url(//db.onlinewebfonts.com/c/9b7350af1bd31d8cd491e595ed49aeb2?family=NEOTERIC);
 @import url(//db.onlinewebfonts.com/c/f74ee7cbb191e486e9551cdada1999ed?family=Myriad+Pro+Light);
+@import url(//db.onlinewebfonts.com/c/931e80311fcd456a3453861d5abbdb21?family=Helvetica+LT+Std+Fractions);
+@import url(//db.onlinewebfonts.com/c/3b5e54128f03476d417d33fdb1bdd195?family=HelveticaLTStd);
 
 * {
     padding: 0;
@@ -1109,4 +1111,227 @@ input[type="text"]:-moz-placeholder {
 .form_queries_get_a_call:hover{
     filter: brightness(85%);
     cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    top: 2796px;
+    width: 1000px;
+    height: 211px;
+    background-color: #474747;
+}
+
+.footer a{
+    text-decoration: none;
+    font-family: HelveticaLTStd-Cond;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer_headers{
+    position: absolute;
+    top: 23px;
+    left: 39px;
+}
+
+.footer_headers li{
+    width: 153px;
+    height: 20px;
+    font-family: HelveticaLTStd;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff; 
+    transform-origin: left;
+    transform: scale(1.13, 0.9);
+}
+
+.footer_line_1{
+    position: absolute;
+    top: 46px;
+    left: 38px;
+}
+
+.footer_line_2{
+    position: absolute;
+    top: 46px;
+    left: 194px;
+}
+
+.footer_line_3{
+    position: absolute;
+    top: 46px;
+    left: 344px;
+}
+
+.footer_line_1, .footer_line_2, .footer_line_3{
+    width: 29px;
+    height: 2px;
+    background-color: #e5e5e5;
+    border: none;  
+}
+
+.col_1{
+    position: absolute;
+    top: 54px;
+    left: 38px;  
+    transform-origin: left;
+    transform: scale(0.71, 1);
+}
+
+.col_2{
+    position: absolute;
+    top: 54px;
+    left: 193px;  
+    transform-origin: left;
+    transform: scale(0.71, 1);
+}
+
+.col_3{
+    position: absolute;
+    top: 54px;
+    left: 343px;  
+    transform-origin: left;
+    transform: scale(0.71, 1);
+}
+
+.footer_headers li{
+    float:left;
+}
+
+.footer ul a:hover{
+    filter: brightness(85%);
+}
+
+.footer_email{
+    position: absolute;
+    top: 42px;
+    left: 691px;
+}
+
+.footer_email input[type="email"]{
+    height: 44px;
+    background-color: #cccccc;
+    border: none;
+    float: left;
+}
+
+
+.footer_email input[type="email"]::-webkit-input-placeholder {
+    padding-left: 19px;
+    font-family: HelveticaLTStd-Cond;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4e4e;
+    transform-origin: left;
+    transform: scale(0.78, 1);
+}
+.footer_email input[type="email"]::-moz-placeholder {
+    padding-left: 19px;
+    font-family: HelveticaLTStd-Cond;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4e4e;
+}
+.footer_email .footer_email input[type="email"]:-ms-input-placeholder {
+    padding-left: 19px;
+    font-family: HelveticaLTStd-Cond;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4e4e;
+}
+.footer_email input[type="email"]:-moz-placeholder {
+    padding-left: 19px;
+    font-family: HelveticaLTStd-Cond;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4f4e4e;
+}
+
+.footer_email input[type="submit"]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 102px;
+    height: 44px;
+    background-color: #0072bc;
+    border: 1px solid #cccccc;
+    font-family: HelveticaLTStd-Cond;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    float: right;
+}
+
+.footer_email input[type="email"]:hover{
+    box-shadow: 0 0 5px; 
+}
+
+.footer_email input[type="submit"]:hover{
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
+.footer_social_refs{
+    position: absolute;
+    top: 127px;
+    left: 683px;
+}
+
+.footer_social_refs li{
+    float:left;
+    padding-left: 8px;
+}
+
+.footer_social_refs div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 37px;
+    height: 41px;
+    background-color: #2e2e2e;
+    border-radius: 50%;
+}
+
+.footer_social_refs li a{
+    text-decoration: none;
+}
+
+.footer_social_refs li div:hover{
+    box-shadow: 0 0 5px; 
 }
