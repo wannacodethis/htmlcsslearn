@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creativia</title>
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#site_logo").on("click","a", function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 500);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="site_header" id="site_logo">
+            <a href="#home_page">
+                <div class="site_logo">
+                    <img src="img/shape-1.png" srcset="img/shape-1@2x.png 2x, img/shape-1@3x.png 3x" class="logo_shape">
+                    <img src="img/creativia.png" srcset="img/creativia@2x.png 2x, img/creativia@3x.png 3x" class="logo_text">
+                </div>
+            </a>
+            <ul type="none">
+                <li><a href="#home_page">HOME</a></li>
+                <li><a href="#about_page">ABOUT&nbsp;US</a></li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">CLIENTS</a></li>
+                <li><a href="">TEAM</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>    
+            </ul>
+        </div>  
+        
+        <div class="home_page" id="home_page">
+            <img src="img/photodune-3598715-woman-in-red-m.png"
+                 srcset="img/photodune-3598715-woman-in-red-m@2x.png 2x,
+                 img/photodune-3598715-woman-in-red-m@3x.png 3x"
+                 class="photodune-3598715-woman-in-red-m">  
+            <h1>why&nbsp<span>creativia?</span></h1> 
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut&nbsp;et&nbsp;dolor justo. Phasellus eu&nbsp;ligula ac&nbsp;nisl volutpat tincidunt.  Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu&nbsp;tortor porta placerat. Suspendisse ac&nbsp;vestibulum eros. Nulla mi&nbsp;ipsum, consequat commodo condimentum vitae,
+            </p>
+            <button class="home_features">
+                FEATURES    
+            </button>
+            <button class="free_psd">
+                FREE PSD   
+            </button>
+            <a href="#" class="home_page_lt">
+                &lt;
+            </a>
+            <a href="#" class="home_page_gt">
+                &gt;
+            </a>   
+        </div>
+        
+        <div class="about_page" id="about_page">
+            <h1>about&nbsp<span>creativia</span></h1>  
+            <p>
+                Lorem ipsum dolor sit amet, consectetur <span>adipiscing elit</span>. Integer sed magna vel velit dignissim luctus eu&nbsp;in&nbsp;urna. Dapibus egestas turpis.
+            </p>
+            <p class="about_page_description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut&nbsp;et&nbsp;dolor justo. Phasellus eu&nbsp;ligula ac&nbsp;nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu&nbsp;tortor porta placerat. Suspendisse ac&nbsp;vestibulum eros. Nulla mi&nbsp;ipsum, consequat commodo condimentum vitae,                 
+            </p>
+            <div class="about_page_list">
+                <input class="hide" id="hd_1" type="checkbox">
+                <label for="hd_1">
+                  <div class="about_page_list1_elem1"><span>+</span></div><div class="about_page_list1_elem2">Who is creativia</div>
+                </label>
+                <p class="about_page_list1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut&nbsp;et&nbsp;dolor justo. Phasellus eu&nbsp;ligula ac&nbsp;nisl volutpat tincidunt. Vestibulum vitae rhoncus odio Fusce sed enim erat. Mauris dictum lorem eu&nbsp;tortor porta placerat. Suspendisse ac&nbsp;vestibulum eros.
+                </p>
+                <br/>
+                
+                <input class="hide" id="hd_2" type="checkbox">
+                <label for="hd_2">
+                  <div class="about_page_list1_elem1"><span>+</span></div><div class="about_page_list1_elem2">Experiences</div>
+                </label>
+                <p class="about_page_list1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, cum, temporibus. Ipsum minus magnam voluptas sequi ipsam blanditiis modi harum placeat cum, molestiae perspiciatis illo assumenda, debitis, id accusantium. Aliquam!
+                </p>
+                <br/>
+                                                
+                <input class="hide" id="hd_3" type="checkbox">
+                <label for="hd_3">
+                  <div class="about_page_list1_elem1"><span>+</span></div><div class="about_page_list1_elem2">Learn more</div>
+                </label>
+                <p class="about_page_list1">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur doloremque dolorem maxime. Recusandae nulla in, voluptate accusamus quibusdam perspiciatis eligendi eos odit eius quo animi culpa eaque, totam eum rem.
+                </p>                
+            </div>
+            <div class="about_page_images">
+                <img src="img/-e-Layer 8@1x.png" srcset="img/-e-Layer 8@2x.png 2x, img/-e-Layer 8@3x.png 3x" class="img_1">
+                <img src="img/-e-active img@1x.png" srcset="img/-e-active img@2x.png 2x, img/-e-active img@3x.png 3x" class="img_2">
+                <img src="img/-e-Layer 9@1x.png" srcset="img/-e-Layer 9@2x.png 2x, img/-e-Layer 9@3x.png 3x" class="img_3">
+            </div>
+            <hr/>
+            <div class="hexagon">
+                <div></div><div></div><div></div>         
+            </div>
+        </div>
+
+    </div>    
+</body>
+</html>
+

@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+.body{
+    margin: 0px auto;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1400px;
+}
+
+/*************** Site menu ***********************/
+.site_header{
+    position: fixed;
+    width: 1400px;
+    height: 70px;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.logo_shape{
+    position: absolute;
+    top: -3px;
+    left: 115px;
+    width: 251px;
+    height: 106px;
+    object-fit: fill;
+}
+
+.logo_text {
+    position: absolute;
+    top: 36px;
+    left: 181px;
+    width: 120px;
+    height: 23px;
+    object-fit: fill;
+}
+
+.site_header ul{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 26px;
+    left: 430px;
+    width: 860px;
+    height: 13px;
+}
+
+.site_header ul li{
+    padding-left: 34px;
+    margin: 0px;
+
+    float: left;
+}
+
+.site_header ul li a{
+    padding-bottom: 23px;
+    padding-top: 23px;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #a4a4a4;
+}
+
+.site_header ul li a:hover{
+    color: #ffffff;
+    border-top: 3px solid #ff0036;
+    border-bottom: 2px solid #ff0036;
+}
+
+/*************** Home page ***********************/
+
+.home_page{
+    position: relative;
+    width: inherit;
+    height: 697px;
+    background: #000000;
+}
+
+.home_page img{
+    opacity: 0.3;
+}
+
+.home_page h1{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 249px;
+    left: 593px;
+    width: 211px;
+    height: 29px;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.0px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.home_page h1 span{
+    color: #ff0036;
+}
+
+.home_page p{
+    position: absolute;
+    top: 324px;
+    left: 184px;
+    width: 1031px;
+    height: 57px;
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;    
+    color: #ffffff;
+}
+
+.home_page button{
+    height: 50px;
+    width: 170px;
+    background-color: #131313;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+
+.home_page button:hover{
+    background-color: #ff0036;
+}
+
+.home_page .home_features{
+    position:absolute;
+    top: 437px;
+    left: 515px;
+}
+
+.home_page .free_psd{
+    position: absolute;
+    top: 437px;
+    left: 715px;
+}
+
+.home_page .home_page_lt, .home_page_gt{
+    text-decoration: none;
+    width: 17px;
+    height: 28px;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;    
+    color: #a4a4a4;
+    transform-origin: left;
+    transform: scale(1, 1.8);
+}
+
+.home_page .home_page_lt{
+    position: absolute;
+    top: 369px;
+    left: 36px;
+}
+
+.home_page .home_page_gt{
+    position: absolute;
+    top: 369px;
+    right: 29px;    
+}
+
+.home_page .home_page_lt:hover, .home_page_gt:hover{
+    color: #ff0036;
+}
+
+/*************** About page ***********************/
+
+.about_page{
+    position: relative;
+    width: inherit;
+    height: 1176px;
+}
+
+.about_page h1{
+    position: absolute;
+    top: 97px;
+    left: 592px;
+    width: 215px;
+    height: 23px;
+    margin: 0;
+    padding: 0;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626; 
+}
+
+.about_page h1 span{
+    color: #ff0036;
+}
+
+.about_page h1+p{
+    position: absolute;
+    top: 172px;
+    left: 230px;
+    width: 954px;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #505050;
+}
+
+.about_page p span{
+    color: #ff0036;
+}
+
+.about_page .about_page_description{
+    position: absolute;
+    top: 270px;
+    left: 117px;
+    width: 570px;
+    height: 80px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #505050;
+}
+
+.about_page_list{
+    position: relative;
+    top: 404px;
+    left: 116px;    
+    float: left;
+}
+
+.hide,
+.hide+label ~ p{
+    display: none;
+}
+
+.hide+label{
+    display: inline-block;
+    padding-top: 7px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+    cursor: pointer;
+}
+
+.hide~p{
+    margin: 0px;
+    padding: 16px 14.5px;
+    width: 538px;
+    height: 57px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #505050;    
+    border: solid 1px #e7e7e7;
+}
+
+.hide:checked+label{
+    color: #ff0036;
+}
+
+.hide:checked+label+p{
+    display: block;
+    -webkit-animation: fade ease-in 0.5s;
+    -moz-animation: fade ease-in 0.5s;
+    animation: fade ease-in 0.5s;
+}
+
+@-moz-keyframes fade{
+    from {opacity: 0;} to {opacity: 1;}
+}
+
+@-webkit-keyframes fade{
+    from {opacity: 0;} to {opacity: 1;}
+}
+
+@keyframes fade{
+    from {opacity: 0;} to {opacity: 1;}
+}
+
+.about_page_list1_elem1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 45px;
+    border: solid 1px #e7e7e7;
+    background-color: #f7f7f7;
+    float: left;
+}
+
+.about_page_list1_elem1 span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #505050;
+    border-radius: 50%;    
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;    
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #505050;
+}
+/*
+.hide:checked + label div span{
+    border: 2px solid #ff0036;
+    color: #ff0036;
+}
+*/
+.hide:checked + label div span{
+    display: none;
+}
+
+.hide:checked + label .about_page_list1_elem1:after{
+    content: "-";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;    
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;    
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    border: 2px solid #ff0036;
+    color: #ff0036;
+}
+
+.about_page_list1_elem2{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 475px;
+    height: 45px;
+    border: solid 1px #e7e7e7;
+    background-color: #f7f7f7;
+    float: left;
+}
+
+.about_page_images{
+    position: relative;
+    top: 282px;
+    left: 715px;
+    height: 360px;
+}
+
+.about_page_images .img_1{
+    position: absolute;
+    left: 3px;
+    top: 20px;
+    filter: brightness(35%);
+}
+
+.about_page_images .img_3{
+    position: absolute;
+    left: 190px;
+    top: 20px;
+    filter: brightness(35%)
+}
+
+.about_page_images .img_2{
+    position: absolute;
+    left: 70px;
+    z-index: 1;
+}
+
+.about_page hr{
+    position: absolute;
+    top: 750px;
+    left: 443px;
+    width: 515px;
+    height: 1px;
+    background-color: #262626;
+}
+
+.about_page .hexagon div:nth-child(1), .hexagon div:nth-child(2), .hexagon div:nth-child(3){
+    position: absolute;
+    top: 755px;
+    left: 691px;
+    width: 18px;
+    height: 9px;
+    background-color: #262626;
+}
+
+.about_page .hexagon div:nth-child(1){
+    transform: rotate(30deg);
+}
+
+.about_page .hexagon div:nth-child(2){
+    transform: rotate(90deg);
+}
+
+.about_page .hexagon div:nth-child(3){
+    transform: rotate(-30deg);
+}

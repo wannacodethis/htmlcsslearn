@@ -1,34 +1,51 @@
-@import url(//db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation);
-@import url(//db.onlinewebfonts.com/c/203a9484bfdc47e34b3ef212bab9adc1?family=Sansation);
+@import url(https://db.onlinewebfonts.com/c/00370d92f1b404768d34ac7dc664289e?family=Sansation);
+@import url(https://db.onlinewebfonts.com/c/203a9484bfdc47e34b3ef212bab9adc1?family=Sansation);
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
-@import url(//db.onlinewebfonts.com/c/a89cf050c859a23e4b6d9cf5989acf9e?family=Myriad+Pro);
-@import url(//db.onlinewebfonts.com/c/9b7350af1bd31d8cd491e595ed49aeb2?family=NEOTERIC);
-@import url(//db.onlinewebfonts.com/c/f74ee7cbb191e486e9551cdada1999ed?family=Myriad+Pro+Light);
-@import url(//db.onlinewebfonts.com/c/931e80311fcd456a3453861d5abbdb21?family=Helvetica+LT+Std+Fractions);
-@import url(//db.onlinewebfonts.com/c/3b5e54128f03476d417d33fdb1bdd195?family=HelveticaLTStd);
+@import url(https://db.onlinewebfonts.com/c/a89cf050c859a23e4b6d9cf5989acf9e?family=Myriad+Pro);
+@import url(https://db.onlinewebfonts.com/c/9b7350af1bd31d8cd491e595ed49aeb2?family=NEOTERIC);
+@import url(https://db.onlinewebfonts.com/c/f74ee7cbb191e486e9551cdada1999ed?family=Myriad+Pro+Light);
+@import url(https://db.onlinewebfonts.com/c/931e80311fcd456a3453861d5abbdb21?family=Helvetica+LT+Std+Fractions);
+@import url(https://db.onlinewebfonts.com/c/3b5e54128f03476d417d33fdb1bdd195?family=HelveticaLTStd);
 
 * {
     padding: 0;
     margin: 0;
 }
 
+/*
+html{
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;*/
+}
+
 body{
-    margin: 0;
+    margin: 0 auto;
+    /*min-height: 100%;
+    width: 100%;*/
 }
 
 .container{
-    margin: 0 auto;
     width: 1000px;
+    margin: 0 auto;
 }
 
 .main_service{
-    position: relative;
     width: 1000px;
+ /*   min-width: 800px;
+    max-width: 1600px;
+    width: 100%;*/
+    position: relative;
     height: 552px;
     background-color: #000000;
 }
 
 .ap-ui{
+    /*
+    min-width: inherit;
+    max-width: inherit;
+    width: inherit;*/
+    width: 1000px;
     opacity: 0.5;
     filter: alpha(opacity = 50) black;
 }
@@ -131,6 +148,8 @@ body{
     align-items: center;
     width: 23px;
     height: 29px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
     border: solid 1px #ffffff;
 }
@@ -380,6 +399,8 @@ body{
     width: 161px;
     height: 24px;
     border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
     border-radius: 2px;
     background-color: #05a0af;
 }
@@ -563,6 +584,8 @@ body{
     width: 141px;
     height: 29px;
     border: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
     border-radius: 2px;
     background-color: #959595;
     font-family: Sansation;
@@ -765,6 +788,8 @@ body{
 .feedback_left_arrow:hover, .feedback_right_arrow:hover{
     filter: brightness(85%);
     cursor: pointer; 
+    -moz-box-shadow: 0 0 10px;
+    -webkit-box-shadow: 0 0 10px;
     box-shadow: 0 0 10px;
 }
 
@@ -1031,7 +1056,9 @@ body{
 }
 
 .form_queries_name:hover, .form_queries_number:hover{
-    box-shadow: 0 0 5px;
+    -moz-box-shadow: 0 0 5px;
+    -webkit-box-shadow: 0 0 5px;
+    box-shadow: 0 0 5px;  
 }
 
 .form_queries_name{
@@ -1299,6 +1326,8 @@ input[type="text"]:-moz-placeholder {
 }
 
 .footer_email input[type="email"]:hover{
+    -moz-box-shadow: 0 0 5px;
+    -webkit-box-shadow: 0 0 5px;
     box-shadow: 0 0 5px; 
 }
 
@@ -1325,6 +1354,8 @@ input[type="text"]:-moz-placeholder {
     width: 37px;
     height: 41px;
     background-color: #2e2e2e;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
 }
 
@@ -1333,5 +1364,7 @@ input[type="text"]:-moz-placeholder {
 }
 
 .footer_social_refs li div:hover{
+    -moz-box-shadow: 0 0 5px;
+    -webkit-box-shadow: 0 0 5px;
     box-shadow: 0 0 5px; 
 }
