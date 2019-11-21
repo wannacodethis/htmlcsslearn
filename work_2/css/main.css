@@ -273,6 +273,12 @@
     float: left;
 }
 
+.about_page_list label{
+    margin: 0px;
+    padding: 0px;
+    height: 42px;
+}
+
 .hide,
 .hide+label ~ p{
     display: none;
@@ -321,6 +327,7 @@
     animation: fade ease-in 0.5s;
 }
 
+/*
 @-moz-keyframes fade{
     from {opacity: 0;} to {opacity: 1;}
 }
@@ -331,6 +338,30 @@
 
 @keyframes fade{
     from {opacity: 0;} to {opacity: 1;}
+}
+*/
+
+@-moz-keyframes fade{
+    from {color: aliceblue; animation-timing-function: ease-out;}
+    25% {color: aqua; animation-timing-function: ease-in;}
+    50% {color: cyan;animation-timing-function: ease-out;}
+    25% {color: darkviolet; animation-timing-function: ease-in;}
+    to {color: black}
+}
+
+@-moz-keyframes fade{
+    from {color: aliceblue; animation-timing-function: ease-out;}
+    25% {color: aqua; animation-timing-function: ease-in;}
+    50% {color: cyan;animation-timing-function: ease-out;}
+    25% {color: darkviolet; animation-timing-function: ease-in;}
+    to {color: black}
+}
+@-moz-keyframes fade{
+    from {color: aliceblue; animation-timing-function: ease-out;}
+    25% {color: aqua; animation-timing-function: ease-in;}
+    50% {color: cyan;animation-timing-function: ease-out;}
+    25% {color: darkviolet; animation-timing-function: ease-in;}
+    to {color: black}
 }
 
 .about_page_list1_elem1{
@@ -362,12 +393,7 @@
     text-align: center;
     color: #505050;
 }
-/*
-.hide:checked + label div span{
-    border: 2px solid #ff0036;
-    color: #ff0036;
-}
-*/
+
 .hide:checked + label div span{
     display: none;
 }
@@ -378,7 +404,8 @@
     align-items: center;
     justify-content: center;
     width: 17px;
-    height: 17px;
+    height: 12px;
+    padding-bottom: 5px;
     border-radius: 50%;    
     font-family: Raleway;
     font-size: 30px;
