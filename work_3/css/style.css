@@ -371,8 +371,10 @@
   box-sizing: border-box;
   padding-top: 98px;
   width: 1200px;
+  height: 823px;
   padding: 0 30px;
   font-size: 0px;
+  margin-top: 98px;
 }
 .goods_mozaic a {
   text-decoration: none;
@@ -498,4 +500,190 @@
   color: #f16d7f;
   font-size: 30px;
   letter-spacing: 0.75px;
+}
+.goods_mozaic .hot_deal_men:hover,
+.goods_mozaic .offer_woman:hover,
+.goods_mozaic .luxirous_and_trendy:hover,
+.goods_mozaic .new_arrivals:hover {
+  filter: brightness(65%);
+}
+.featured_items {
+  margin-top: 100px;
+  margin-bottom: 113px;
+  width: 1200px;
+  padding: 0 30px;
+}
+.featured_items header {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.75px;
+  text-align: center;
+  color: #222222;
+}
+.featured_items header span {
+  height: 12px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.35px;
+  text-align: center;
+  color: #9f9f9f;
+}
+.featured_items .wrapper {
+  margin-top: 60px;
+  margin-bottom: 37px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.featured_items .wrapper .item_1,
+.featured_items .wrapper .item_2,
+.featured_items .wrapper .item_3,
+.featured_items .wrapper .item_4,
+.featured_items .wrapper .item_5,
+.featured_items .wrapper .item_6,
+.featured_items .wrapper .item_7,
+.featured_items .wrapper .item_8 {
+  width: 261px;
+  margin-bottom: 60px;
+}
+.featured_items .wrapper .item_1 img,
+.featured_items .wrapper .item_2 img,
+.featured_items .wrapper .item_3 img,
+.featured_items .wrapper .item_4 img,
+.featured_items .wrapper .item_5 img,
+.featured_items .wrapper .item_6 img,
+.featured_items .wrapper .item_7 img,
+.featured_items .wrapper .item_8 img {
+  display: inline-block;
+  width: 261px;
+  height: 279px;
+  margin-bottom: 20px;
+}
+.featured_items .wrapper .item_1 div,
+.featured_items .wrapper .item_2 div,
+.featured_items .wrapper .item_3 div,
+.featured_items .wrapper .item_4 div,
+.featured_items .wrapper .item_5 div,
+.featured_items .wrapper .item_6 div,
+.featured_items .wrapper .item_7 div,
+.featured_items .wrapper .item_8 div {
+  margin-bottom: 17px;
+  padding-left: 14px;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+}
+.featured_items .wrapper .item_1 span,
+.featured_items .wrapper .item_2 span,
+.featured_items .wrapper .item_3 span,
+.featured_items .wrapper .item_4 span,
+.featured_items .wrapper .item_5 span,
+.featured_items .wrapper .item_6 span,
+.featured_items .wrapper .item_7 span,
+.featured_items .wrapper .item_8 span {
+  padding-left: 14px;
+  color: #f16d7f;
+}
+.featured_items .wrapper a {
+  margin-left: 462px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 212px;
+  height: 48px;
+  background-color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #ffffff;
+}
+.company_advantages {
+  width: 1200px;
+  padding: 0 30px;
+  font-size: 0px;
+}
+.company_advantages .offer {
+  box-sizing: border-box;
+  display: inline-block;
+  background: #ffffff url("../img/layer-38.png") no-repeat top left;
+  width: 767px;
+  height: 529px;
+  padding-top: 146px;
+  padding-left: 39px;
+  font-size: 53.5px;
+  font-family: Lato;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.7;
+  letter-spacing: 1.34px;
+  text-align: left;
+  color: #ffffff;
+}
+.company_advantages .offer span {
+  color: #f16d7f;
+}
+.company_advantages .offer span span {
+  letter-spacing: 0.8px;
+  font-size: 32px;
+  color: #ffffff;
+}
+.company_advantages .wrapper {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 373px;
+  background-color: #222224;
+}
+.company_advantages .wrapper .free_delivery {
+  font-size: 0px;
+}
+.company_advantages .wrapper .free_delivery img {
+  display: inline-block;
+  margin-top: 48px;
+  margin-left: 36px;
+}
+.company_advantages .wrapper .free_delivery h2 {
+  margin-top: 55px;
+  margin-left: 33px;
+  padding: 0px 0px;
+  display: inline-block;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #fbfbfb;
+}
+.company_advantages .wrapper .free_delivery p {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.35px;
+  text-align: left;
+  color: #fbfbfb;
 }
