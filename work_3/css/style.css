@@ -617,6 +617,8 @@
   color: #ffffff;
 }
 .company_advantages {
+  display: flex;
+  align-items: center;
   width: 1200px;
   padding: 0 30px;
   font-size: 0px;
@@ -652,20 +654,21 @@
   display: inline-block;
   width: 373px;
   background-color: #222224;
+  height: 529px;
 }
-.company_advantages .wrapper .free_delivery {
-  font-size: 0px;
-}
-.company_advantages .wrapper .free_delivery img {
-  display: inline-block;
+.company_advantages .wrapper .free_delivery h2,
+.company_advantages .wrapper .sales_and_discounts h2,
+.company_advantages .wrapper .quality_assurence h2 {
+  display: flex;
+  align-items: center;
   margin-top: 48px;
   margin-left: 36px;
+  font-size: 0px;
 }
-.company_advantages .wrapper .free_delivery h2 {
-  margin-top: 55px;
+.company_advantages .wrapper .free_delivery h2 span,
+.company_advantages .wrapper .sales_and_discounts h2 span,
+.company_advantages .wrapper .quality_assurence h2 span {
   margin-left: 33px;
-  padding: 0px 0px;
-  display: inline-block;
   font-family: Lato;
   font-size: 20px;
   font-weight: bold;
@@ -676,7 +679,11 @@
   text-align: left;
   color: #fbfbfb;
 }
-.company_advantages .wrapper .free_delivery p {
+.company_advantages .wrapper .free_delivery p,
+.company_advantages .wrapper .sales_and_discounts p,
+.company_advantages .wrapper .quality_assurence p {
+  width: 220px;
+  margin-left: 111px;
   font-family: Lato;
   font-size: 14px;
   font-weight: 300;
@@ -686,4 +693,12 @@
   letter-spacing: 0.35px;
   text-align: left;
   color: #fbfbfb;
+}
+.subscribe_and_reviews .reviews {
+  width: 809px;
+}
+.subscribe_and_reviews .reviews img {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
 }

@@ -647,6 +647,8 @@
 }
 
 .company_advantages {
+    display: flex;
+    align-items: center;
     width: 1200px;
     padding: 0 30px;
     font-size: 0px;
@@ -681,30 +683,32 @@
         box-sizing: border-box;
         display: inline-block;
         width: 373px;
-        background-color: #222224; 
-        .free_delivery {
-            font-size: 0px;
-            img{
-                display: inline-block;
+        background-color: #222224;
+        height: 529px;
+        .free_delivery, .sales_and_discounts, .quality_assurence{
+            h2 {
+                display: flex;
+                align-items: center;
                 margin-top: 48px;
                 margin-left: 36px;
+                font-size: 0px;
+
+                span {
+                    margin-left: 33px;         
+                    font-family: Lato;
+                    font-size: 20px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.5px;
+                    text-align: left;
+                    color: #fbfbfb;
+                }
             }
-            h2 {
-                margin-top: 55px;
-                margin-left: 33px;
-                padding: 0px 0px;
-                display: inline-block;
-                font-family: Lato;
-                font-size: 20px;
-                font-weight: bold;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: normal;
-                letter-spacing: 0.5px;
-                text-align: left;
-                color: #fbfbfb;
-            } 
+
             p {
+                width: 220px;
                 margin-left: 111px;
                 font-family: Lato;
                 font-size: 14px;
@@ -716,8 +720,18 @@
                 text-align: left;
                 color: #fbfbfb;
             }
-
+        }
     }
 }
 
-
+.subscribe_and_reviews{
+    
+    .reviews{
+        width: 809px;
+        img{
+              width: 83px;
+  height: 83px;
+            border-radius: 50%;
+        }
+    }    
+}
