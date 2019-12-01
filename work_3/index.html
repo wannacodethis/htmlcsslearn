@@ -217,16 +217,44 @@
             </article>  
         </div>
     </section>
-    <section class="subscribe_and_reviews">
-        <section class="reviews">
-            <div class="switched_reviews">
-                <img src="./img/layer-40.png" alt="review_1">
-                <p>
-                    “Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
-                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
-                </p>
-            </div>    
-        </section>    
+    <section class="subscribe_and_reviews ">
+        <div class="wrapper container wrapper_flex_vertical_align">
+            <section class="reviews">
+                <article class="switched_reviews">
+                    <div class="wrapper_flex_vertical_align">
+                        <img src="./img/layer-40.png" alt="review_1">
+                        <p>
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                        </p>
+                    </div>
+                    <span>
+                        Bin Burhan<br/>
+                        <span>Dhaka, Bd</span>
+                    </span>
+                </article>
+                <div class="reviews_switcher">
+                    <a href="#"></a>
+                    <a href="#" class="selected"></a>
+                    <a href="#"></a>
+                </div>
+            </section>    
+            <article class="subscribe_form">
+               <div class=" wrapper_flex_column">
+                   <h2>
+                       SUBSCRIBE<br />
+                       <span>FOR OUR NEWSLETTER AND PROMOTION</span>
+                   </h2>
+                   <div class="wrap">
+                       <input type="email" placeholder="Enter Your Email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required>
+                       <button type="submit">Subscribe</button>
+                   </div>
+
+               </div>
+
+            </article>
+        </div>
+  
     </section>
 </body>
 </html>

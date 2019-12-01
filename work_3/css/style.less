@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+.wrapper_flex_vertical_align{
+    display: flex;
+    align-items: center;
+}
+.wrapper_flex_column{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header {
     min-width: 1200px;
     max-width: 100%;
@@ -652,6 +662,7 @@
     width: 1200px;
     padding: 0 30px;
     font-size: 0px;
+    margin-bottom: 97px;
     .offer {
         box-sizing: border-box;
         display: inline-block;
@@ -724,14 +735,178 @@
     }
 }
 
-.subscribe_and_reviews{
-    
-    .reviews{
-        width: 809px;
-        img{
-              width: 83px;
-  height: 83px;
-            border-radius: 50%;
+.subscribe_and_reviews {
+    width: 100%;
+    height: 438px;
+    background: #cecece url("../img/layer-41.png") no-repeat left;
+    background-size: 100% 100%;
+    font-size: 0px;
+
+    .wrapper {
+        width: 1200px;
+        padding: 0px 30px;
+    }
+
+    .reviews {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 569px;
+        height: 438px;
+        border-right: 1px solid #cecece;
+        padding-top: 111px;
+
+        .switched_reviews {
+            font-size: 0px;
+            margin-bottom: 41px;
+
+            img {
+                width: 83px;
+                height: 83px;
+                border-radius: 50%;
+                margin-right: 28px;
+            }
+
+            p {
+                display: inline-block;
+                width: 386px;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: italic;
+                line-height: 1.63;
+                letter-spacing: 0.4px;
+                text-align: left;
+                color: #222224;
+            }
+
+            span {
+                margin-left: 113px;
+                width: 82px;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: 0.4px;
+                text-align: left;
+                color: #f16d7f;
+
+                span {
+                    font-size: 12px;
+                    font-weight: 300;
+                    line-height: 1;
+                    letter-spacing: 0.3px;
+                    color: #222224;
+                }
+            }
         }
-    }    
+
+        .reviews_switcher {
+            margin-left: 113px;
+            width: 140px;
+            display: flex;
+            align-items: flex;
+            justify-content: space-between;
+
+            a {
+                box-sizing: border-box;
+                width: 38px;
+                height: 4px;
+                background-color: #d6d6d6;
+                display: inline-block;
+                padding-right: 7.5px;
+            }
+
+            a:hover {
+                background-color: #f16d7f;
+            }
+            
+            .selected{
+                background-color: #f16d7f;
+            }
+        }
+
+
+    }
+
+    .subscribe_form {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 569px;
+        height: 438px;
+        padding-top: 148px;
+        padding-left: 92px;
+
+        h2 {
+            margin: 0px;
+            margin-bottom: 35px;
+            box-sizing: border-box;
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 0.6px;
+            text-align: center;
+            color: #222224;
+
+            span {
+                font-size: 14px;
+                line-height: 1;
+                letter-spacing: 0.35px;
+            }
+        }
+  
+        input[type="email"] {
+            border: none;
+            width: 334px;
+            height: 46px;
+            border-top-left-radius: 23px;
+            border-bottom-left-radius: 23px;
+            background-color: #e1e1e1;
+            text-align: left;
+            border: none;
+            outline: none;
+            -webkit-appearance: none;
+            opacity: 0.67;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 0.35px;
+            text-align: center;
+            color: rgba(34, 34, 36, 0.67);
+        }
+        
+        input[type="email"]:invalid{
+            background-color: #ffcccc;
+        }
+        
+        input[type="email"]:valid{
+            background-color: #ccffcc;
+        }
+            
+        button[type="submit"] {
+            border: none;
+            width: 104px;
+            height: 46px;
+            background-color: #f16d7f;
+            border-top-right-radius: 23px;
+            border-bottom-right-radius: 23px;
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 0.35px;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
 }
