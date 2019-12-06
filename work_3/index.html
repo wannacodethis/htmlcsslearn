@@ -7,59 +7,118 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container header_container">
             <div class="logo">
                 <a href="#">
                     <img src="img/group-2.png" srcset="img/group-2@2x.png 2x,
-                             img/group-2@3x.png 3x"><p>BRAN<span>D</span></p>
+                             img/group-2@3x.png 3x">
+                    <p>BRAN<span>D</span></p>
                 </a>
             </div>
             <div class="browse">
-               <ul>
-                   <li>
-                       <a href="#" class="browse_menu">Browse</a>
-                       <ul class="header_dropdown">
-                           <li>
-                               <h3>WOMEN</h3>
-                               <ul class="clothes_types">
-                                   <li><a href="#">Dresses</a></li>
-                                   <li><a href="#">Tops</a></li>
-                                   <li><a href="#">Sweaters/Knits</a></li>
-                                   <li><a href="#">Jackets/Coats</a></li>
-                                   <li><a href="#">Blazers</a></li>
-                                   <li><a href="#">Denim</a></li>
-                                   <li><a href="#">Leggins/Pants</a></li>
-                                   <li><a href="#">Skirts/Shorts</a></li>
-                                   <li><a href="#">Accessories</a></li>
-                               </ul>
-                           </li>
-                           <li>
-                               <h3>MEN</h3>
-                               <ul class="clothes_types">
-                                   <li><a href="#">Tees/Tamk tops</a></li>
-                                   <li><a href="#">Shirts/Polos</a></li>
-                                   <li><a href="#">Sweaters</a></li>
-                                   <li><a href="#">Sweatshirts/Hoodies</a></li>
-                                   <li><a href="#">Blazers</a></li>
-                                   <li><a href="#">Jackets/Vests</a></li>
-                               </ul>
-                           </li>
-                       </ul>
-                   </li>
-               </ul>
-            </div>  
+                <ul>
+                    <li>
+                        <a href="#" class="browse_menu">Browse</a>
+                        <ul class="header_dropdown">
+                            <li>
+                                <h3>WOMEN</h3>
+                                <ul class="clothes_types">
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">Sweaters/Knits</a></li>
+                                    <li><a href="#">Jackets/Coats</a></li>
+                                    <li><a href="#">Blazers</a></li>
+                                    <li><a href="#">Denim</a></li>
+                                    <li><a href="#">Leggins/Pants</a></li>
+                                    <li><a href="#">Skirts/Shorts</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h3>MEN</h3>
+                                <ul class="clothes_types">
+                                    <li><a href="#">Tees/Tamk tops</a></li>
+                                    <li><a href="#">Shirts/Polos</a></li>
+                                    <li><a href="#">Sweaters</a></li>
+                                    <li><a href="#">Sweatshirts/Hoodies</a></li>
+                                    <li><a href="#">Blazers</a></li>
+                                    <li><a href="#">Jackets/Vests</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
             <div class="search">
                 <form action="#">
                     <input type="search" placeholder="Search for Item...">
                     <button type="submit"></button>
                 </form>
             </div>
+
+
+            <ul class="cart">
+                <li>
+                    <a href="#" class="header_backet">
+                        <img src="img/forma-1.png" srcset="img/forma-1@2x.png 2x,
+             img/forma-1@3x.png 3x">
+                        <div class="number_goods_in_cart">2</div>
+                    </a>
+                    <ul class="cart_dropdown">
+                        <li>
+                            <div class="cart_product_1">
+                                <a href="#">
+                                    <img src="./img/Layer%2043.png" alt="product_1">
+                                    <span class="product_name">REBOX ZANE
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <span class="product_cost">1 x 250$</span></span></a>
+                                <button class="delete_button"></button>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="cart_product_2">
+                                <a href="#">
+                                    <img src="./img/Layer%2044.png" alt="product_2">
+                                    <span class="product_name">REBOX ZANE
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <span class="product_cost">1 x 250$
+                                        </span>
+                                    </span></a>
+                                <button class="delete_button"></button>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="cart_total">
+                                <span>TOTAL</span>
+                                <span class="total_cost">500$</span>
+                                <a href="#">CHECKOUT</a>
+                                <a href="#">GO TO CART</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!--
+            
             <a href="#" class="header_backet">
                 <img src="img/forma-1.png" srcset="img/forma-1@2x.png 2x,
-             img/forma-1@3x.png 3x" >
+             img/forma-1@3x.png 3x">
+                 <div class="number_goods_in_cart">2</div>
             </a>
+            
+-->
+
+
             <div class="header_account">
                 <ul>
                     <li>
@@ -72,7 +131,7 @@
                 </ul>
             </div>
         </div>
-    </header>    
+    </header>
     <nav class="container nav">
         <ul>
             <li><a href="#">HOME</a></li>
@@ -82,139 +141,196 @@
             <li><a href="#">ACCOSERIESE</a></li>
             <li><a href="#">FEATURED</a></li>
             <li><a href="#">HOT DEALS</a></li>
-        </ul>    
+        </ul>
     </nav>
     <div class="main_banner_wrapper">
         <section class="main_banner container">
-            <h1>THE BRAND<br/>OF LUXERIOUS <span>FASHION</span></h1>   
-        </section>        
+            <h1>THE BRAND<br />OF LUXERIOUS <span>FASHION</span></h1>
+        </section>
     </div>
     <section class="goods_mozaic container">
         <a href="#">
             <div class="hot_deal_men">
                 <div>
-                    HOT DEAL<br/><span>FOR MEN</span>
-                </div> 
+                    HOT DEAL<br /><span>FOR MEN</span>
+                </div>
             </div>
         </a>
         <a href="#">
             <div class="offer_woman">
                 <div>
-                    30% OFFER<br/><span>WOMAN</span>
-                </div>        
-            </div> 
+                    30% OFFER<br /><span>WOMAN</span>
+                </div>
+            </div>
         </a>
         <a href="#">
             <div class="luxirous_and_trendy">
                 <div>
-                    LUXIROUS &amp; TRENDY<br/><span>ACCESORIES</span>
-                </div>        
-            </div> 
-        </a>      
+                    LUXIROUS &amp; TRENDY<br /><span>ACCESORIES</span>
+                </div>
+            </div>
+        </a>
         <a href="#">
             <div class="new_arrivals">
                 <div>
-                    NEW ARRIVALS<br/><span>FOR KIDS</span>
-                </div>        
-            </div> 
-        </a>               
+                    NEW ARRIVALS<br /><span>FOR KIDS</span>
+                </div>
+            </div>
+        </a>
     </section>
     <section class="featured_items container">
         <header>
-            Featured items<br/><span>Shop for items based on what we featured in this week</span>
+            Featured items<br /><span>Shop for items based on what we featured in this week</span>
         </header>
         <div class="wrapper">
-            <div class="item_1">
-                <img src="./img/layer-2.png" alt="item_1">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            <button>
+                <div class="item_1">
+                    <img src="./img/layer-2.png" alt="item_1">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div>  
-            
-            <div class="item_2">
-                <img src="./img/layer-3.png" alt="item_2">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            </button>
+            <button>
+                <div class="item_2">
+                    <img src="./img/layer-3.png" alt="item_2">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div> 
-               
-            <div class="item_3">
-                <img src="./img/layer-4.png" alt="item_3">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            </button>
+            <button>
+                <div class="item_3">
+                    <img src="./img/layer-4.png" alt="item_3">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div> 
-              
-            <div class="item_4">
-                <img src="./img/layer-5.png" alt="item_4">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            </button>
+            <button>
+                <div class="item_4">
+                    <img src="./img/layer-5.png" alt="item_4">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div> 
-              
-            <div class="item_5">
-                <img src="./img/layer-6.png" alt="item_5">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            </button>
+            <button>
+                <div class="item_5">
+                    <img src="./img/layer-6.png" alt="item_5">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div> 
-                   
-            <div class="item_6">
-                <img src="./img/layer-7.png" alt="item_6">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            </button>
+            <button>
+                <div class="item_6">
+                    <img src="./img/layer-7.png" alt="item_6">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div> 
-                   
-            <div class="item_7">
-                <img src="./img/layer-8.png" alt="item_7">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            </button>
+            <button>
+                <div class="item_7">
+                    <img src="./img/layer-8.png" alt="item_7">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div> 
-                   
-            <div class="item_8">
-                <img src="./img/layer-9.png" alt="item_8">
-                <div>
-                    MANGO PEOPLE T-SHIRT
+            </button>
+            <button>
+                <div class="item_8">
+                    <img src="./img/layer-9.png" alt="item_7">
+                    <a href="#">
+                        <div class="back">
+                            <img src="./img/forma-1-copy.png" alt="cart">
+                            <span>Add To Cart</span>
+                        </div>
+                    </a>
+                    <div>
+                        MANGO PEOPLE T-SHIRT
+                    </div>
+                    <span>$52.00</span>
                 </div>
-                <span>$52.00</span>
-            </div> 
-            <a href="#">
-                Browse All Product  &rarr;
-            </a>        
-        </div>      
+            </button>
+            <a href="#" class="browse_all">
+                Browse All Product &rarr;
+            </a>
+        </div>
     </section>
     <section class="company_advantages container">
         <div class="offer">
-            30% <span>OFFER<br/><span>FOR WOMAN</span></span>
-        </div>   
+            30% <span>OFFER<br /><span>FOR WOMAN</span></span>
+        </div>
         <div class="wrapper">
             <article class="free_delivery">
                 <h2>
-                    <img src="./img/forma-11.png" alt="advantage_1">           <span>Free Delivery</span>         
+                    <img src="./img/forma-11.png" alt="advantage_1"> <span>Free Delivery</span>
                 </h2>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>         
-            </article>   
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </article>
             <article class="sales_and_discounts">
                 <h2>
-                    <img src="./img/forma-12.png" alt="advantage_2">           <span>Sales &amp; discounts</span>         
+                    <img src="./img/forma-12.png" alt="advantage_2"> <span>Sales &amp; discounts</span>
                 </h2>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>         
-            </article>  
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </article>
             <article class="quality_assurence">
                 <h2>
-                    <img src="./img/forma-13.png" alt="advantage_31">           <span>Quality assurance</span>         
+                    <img src="./img/forma-13.png" alt="advantage_31"> <span>Quality assurance</span>
                 </h2>
-                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>         
-            </article>  
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            </article>
         </div>
     </section>
     <section class="subscribe_and_reviews ">
@@ -249,7 +365,7 @@
                         <input type="email" placeholder="Enter Your Email" pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required>
                         <button type="submit">Subscribe</button>
                     </div>
-                </div>
+                </div>s
             </article>
         </div>
     </section>
@@ -302,16 +418,15 @@
         </div>
         <div class="wrap_1">
             <section class="container">
-              <span>&copy; Brand All Rights Reserved.</span>
-              <ul>
-                  <li><a href="#"><img src="./img/facebook.png" alt="facebook"></a></li>
-                  <li><a href="#"><img src="./img/twitter.png" alt="twitter"></a></li>
-                  <li><a href="#"><img src="./img/in.png" alt="in"></a></li>
-                  <li><a href="#"><img src="./img/pin.png" alt="pin"></a></li>
-                  <li><a href="#"><img src="./img/google+.png" alt="google+"></a></li>
-              </ul>
+                <span>&copy; Brand All Rights Reserved.</span>
+                <ul>
+                    <li><a href="#"><img src="./img/facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="./img/twitter.png" alt="twitter"></a></li>
+                    <li><a href="#"><img src="./img/in.png" alt="in"></a></li>
+                    <li><a href="#"><img src="./img/pin.png" alt="pin"></a></li>
+                    <li><a href="#"><img src="./img/google+.png" alt="google+"></a></li>
+                </ul>
             </section>
         </div>
     </footer>
-</body>
-</html>
+</body></html>
